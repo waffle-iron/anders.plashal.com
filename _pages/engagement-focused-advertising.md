@@ -80,7 +80,7 @@ or <em>"optimization-evangelists"</em> can guarantee. [highlight]The marketing i
 
 [custom_headline style="margin-top: 0;" level="h4" looks_like="h4"]<span style="color: #00468c;"><strong>Thank you for your interest!</strong></span> From digital marketing to engagement focus campaigns, we can realize the <strong>full potential</strong> of your idea together.[/custom_headline]
 
-<span style="color: #00468c;">[x_icon type="calendar" ]</span> <strong>Appointments</strong>: Consolations are held on request.
+<span style="color: #00468c;">[x_icon type="calendar" ]</span> <strong>Appointments</strong>: Consultations are held on request.
 <span style="color: #00468c;">[x_icon type="phone-square"]</span> <strong>Office</strong>: +1 (209) 752-7425
 <span style="color: #00468c;">[x_icon type="clock-o"]</span> <strong>Hours</strong>: Mon-Fri: 8AM - 6PM ([extra href="#example" title="North American Eastern Standard Time/ UTC -5/ Email Time Zone: -0500" info="tooltip" info_place="top" info_trigger="hover"]EST[/extra])
 <span style="color: #00468c;">[x_icon type="envelope"]</span> <strong>Email</strong>: hello@plashal.com
