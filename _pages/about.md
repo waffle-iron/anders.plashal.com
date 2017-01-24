@@ -5,7 +5,8 @@ author: Andrés
 post_date: 2016-10-04 18:37:46
 post_excerpt: ""
 layout: page
-permalink: http://andres.plashal.com/about/
+permalink: >
+  http://andres.plashal.com/engagement-focused-advertising/about/
 published: true
 slide_template:
   - ""
