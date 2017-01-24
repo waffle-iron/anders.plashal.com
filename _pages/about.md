@@ -13,4 +13,6 @@ sharing_disabled:
   - "1"
 switch_like_status:
   - "1"
+inline_featured_image:
+  - "0"
 ---
