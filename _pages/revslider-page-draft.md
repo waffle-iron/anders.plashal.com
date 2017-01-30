@@ -13,4 +13,4 @@ inline_featured_image:
 slide_template:
   - ""
 ---
-[rev_slider alias="r_menu1"][/rev_slider][rev_slider alias="r_hero"][/rev_slider][rev_slider alias="r_about1"][/rev_slider][rev_slider alias="r_info1"][/rev_slider]
+[rev_slider alias="r_menu"][/rev_slider][rev_slider alias="r_hero"][/rev_slider][rev_slider alias="r_about1"][/rev_slider][rev_slider alias="r_info1"][/rev_slider]
