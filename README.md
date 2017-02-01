@@ -31,9 +31,10 @@ Table of Contents
 - [Social](#social)
  - Open Graph
  - Social Fallback Image
-- [Site Icons](site-icons)
+- [Site Icons](#site-icons)
 - Menus
 
+> **Bold** variables denotes item of interest
 
 References & Resources
 --
@@ -223,18 +224,19 @@ Note: the vertical alignment of links for both top and side navbar positions as 
 #### Open Graph ####
 Note: This will output standard Open Graph tags for the content. If i decide to employ another solution for this, I can disable Open Graph tag output here. 
 
-- **Open Graph**: null/ Off
+- Open Graph: null/ Off
 
 #### Social Fallback Image  ####
 Note: The "Social Fallback Image" is used with various social media network APIs. It is used as a default on pages that do not have a featured image set. I don't have to specify one; however, it is recommended if I'm using the native Open Graph implementation to set this option, entry sharing, et cetera.
-- **Social Fallback Image**: null/ No image
+
+- Social Fallback Image: null/ No image
 
 ## Site Icons ##
 Note: touch icons for mobile devices and tile icon for the Windows 8/10 Metro interfaces are set in this section. If an image is not set, nothing will be output for that particular icon type. When setting the path to the favicon, make sure to use the ".ico" format. A 152x152 PNG should be used for the touch icon, and a 144x144 PNG should be used for the tile icon. The color set for the tile icon will be used behind the image.
 
 - **Favicon**: /favicon.ico
-- **Touch Icon **(iOS and Android): null/ No image
-- **Tile Icon **(Microsoft): null/ No image
-- **Tile Icon Background Color**: rgb(255, 255, 255)
+- Touch Icon (iOS and Android): null/ No image
+- Tile Icon (Microsoft): null/ No image
+- Tile Icon Background Color: rgb(255, 255, 255)
 
 ## Menus ##
