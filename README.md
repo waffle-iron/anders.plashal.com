@@ -3,9 +3,9 @@ Notes on development of my personal site.
 
 Table of Contents:
 
-- Layout and Design
- - Background Options
-- Typography
+- [Layout and Design](https://github.com/plashal/anders.plashal.com#layout-and-design)
+ - [Background Options](https://github.com/plashal/anders.plashal.com#background-options)
+- [Typography](#typography)
  - Body and Content
  - Headings
  - Site Links
