@@ -3,8 +3,8 @@ Notes on development of my personal site.
 
 Table of Contents:
 
-- [Layout and Design](https://github.com/plashal/anders.plashal.com#layout-and-design)
- - [Background Options](https://github.com/plashal/anders.plashal.com#background-options)
+- [Layout and Design](#layout-and-design)
+ - [Background Options](#background-options)
 - [Typography](#typography)
  - Body and Content
  - Headings
