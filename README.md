@@ -1,9 +1,32 @@
 # anders.plashal.com
 Notes on development of my personal site.
-	
+
+Table of Contents:
+
+- Layout and Design
+ - Background Options
+- Typography
+ - Body and Content
+ - Headings
+ - Site Links
+- Buttons
+ - Colors
+ - Hover Colors
+- Header
+ - Logo and Navigation
+ - Navbar
+ - Logo – Text
+ - Logo – Image
+ - Logo – Alignment
+ - Links – Text
+ - Links – Alignment
+ - 
+
+
 	/// TODO List: ///
 	- Convert all colors to hexadecimal notation, web-safe:
-	- 
+	- Create TOC
+	- Organize readme.md content into logical sections
 
 ### References & Resources:  ###
 - [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
@@ -16,6 +39,7 @@ Notes on development of my personal site.
 
 **To calculate the web-safe values** (0, 3, 6, 9, C and F), the integer values (0 to 255) are divided by 51, rounded to whole numbers and the multiplied with 3.
 
+----------
 
 ## Layout and Design ##
 Note: "Site Width" is the percentage of the screen the site should take up while think of "Site Max Width" as an upper limit that the site will *never* be wider than. "Content Layout" has to do with the site's global setup of having a sidebar or not.
@@ -199,6 +223,17 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
  - %: rgb(100%,0%,35%)
 
 
+- **Navbar Font Size** (px): 17px
+- **Navbar Font Weight**: 700 – Bold
+- **Navbar Letter Spacing (em)**: 0.048
+- **Navbar Text-Transform**: Uppercase
+
+
+#### Links – Alignment ####
+Note: the vertical alignment of links for both top and side navbar positions as well as the vertical spacing between links for top navbar positions with the `Navbar Top Link Spacing`.
+
+- **Navbar Top Link Alignment** (px): 30
+- **Navbar Top Link Spacing** (px): 10
 
 ## Footer ##
 
