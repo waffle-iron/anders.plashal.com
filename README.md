@@ -1,45 +1,47 @@
-# anders.plashal.com
-Notes on development of my personal site.
+.plan file for andres.plashal
+--
+Taken inspiration from Carmack, I'd like to document the happenings of this project. What i thought would be a quick turnaround progressed into a whirl-wind exorcise in [murphy's law](https://en.wikipedia.org/wiki/Murphy's_law). Crashed hdds, Monitors falling off mounts, a forced windows upgrade and a new baby on the way. I've tried my best to correct and compensate and we're still kicking over here, pushing out updates on the daily. With a need to update and migrate my work to a standardized development environment, I begin with [anders.plashal.com](http://andres.plashal.com).  
+	
+	2/1/17 4:20:54 PM: 
+	- Need to convert site colors into #websafe standard notation format (.css file)
+	- Add image block color to designations in this .md (for eyedropper ease)
+	- Continue to add to the TOC/ Complete hyperlinks
 
-Table of Contents:
-
+Table of Contents
+--
 - [Layout and Design](#layout-and-design)
  - [Background Options](#background-options)
 - [Typography](#typography)
- - Body and Content
- - Headings
- - Site Links
-- Buttons
- - Colors
- - Hover Colors
-- Header
- - Logo and Navigation
- - Navbar
+ - [Body and Content](#body-and-content)
+ - [Headings](#headings)
+ - [Site Links](#site-links)
+- [Buttons](#buttons)
+ - [Buttons Colors](#buttons-colors)
+ - [Hover Colors](#button-hover-colors)
+- [Header](#header)
+ - [Navbar](#navbar)
  - Logo – Text
  - Logo – Image
  - Logo – Alignment
  - Links – Text
  - Links – Alignment
- - 
 
 
-	/// TODO List: ///
-	- Convert all colors to hexadecimal notation, web-safe:
-	- Create TOC
-	- Organize readme.md content into logical sections
+References & Resources
+--
 
-### References & Resources:  ###
-- [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+**Useful tools**
+- [GitHub Flavored Markdown Reference ](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [CSS Color Converter](http://maettig.com/?page=PHP/CSS_Color_Converter)
-- [Simple Change Case](https://convertcase.net/)
+- [Quick Type Change Case](https://convertcase.net/)
+- [Wikipedia: Web Colors](https://en.wikipedia.org/wiki/Web_colors)
 
-**To calculate the percentage values** (0% to 100%), the integer values (0 to 255) are divided by 2.55 and then rounded to whole numbers.
 
-**To calculate the short hex values** (0 to 9 and A to F), the integer values (0 to 255) are divided by 17 and then rounded to whole numbers.
+**Color Calculations**
+- **To calculate the percentage values** (0% to 100%), the integer values (0 to 255) are divided by 2.55 and then rounded to whole numbers.
+- **To calculate the short hex values** (0 to 9 and A to F), the integer values (0 to 255) are divided by 17 and then rounded to whole numbers.
+- **To calculate the web-safe values** (0, 3, 6, 9, C and F), the integer values (0 to 255) are divided by 51, rounded to whole numbers and the multiplied with 3.
 
-**To calculate the web-safe values** (0, 3, 6, 9, C and F), the integer values (0 to 255) are divided by 51, rounded to whole numbers and the multiplied with 3.
-
-----------
 
 ## Layout and Design ##
 Note: "Site Width" is the percentage of the screen the site should take up while think of "Site Max Width" as an upper limit that the site will *never* be wider than. "Content Layout" has to do with the site's global setup of having a sidebar or not.
@@ -54,12 +56,7 @@ Note: "Site Width" is the percentage of the screen the site should take up while
 Note: The "Background Pattern" setting will override the "Background Color" unless the image used is transparent, and the "Background Image" option will take precedence over both. The "Background Image Fade (ms)" option allows to set a time in milliseconds for an image to fade in. value of "0" disables. 
 
 - **Background Color**: rgb(255, 255, 255)
- - Hex6: #FFFFFF
  - Hex3: #FFF
- - **WebSafe**: #FFF
- - %: rgb(100%,100%,100%)
-
-
 - Background Pattern: none
 - Background Image: none
 - Background Image Fade (ms): 750
@@ -83,15 +80,8 @@ Note: The letter spacing controls each heading level and will only affect that h
 
 - **Headings Font**:[Lato](https://fonts.google.com/specimen/Lato) (Google)
 - **Headings Font Color**: rgb(0, 0, 0)
- - Hex6: #000000
  - Hex3: #000
- - **WebSafe**: #000
- - %: rgb(0%,0%,0%)
-
-
 - **Headings Font Weight**: 700 – Bold
-
-
 - **h1 Letter Spacing** (em) -0.035
 - **h2 Letter Spacing** (em) -0.035
 - **h3 Letter Spacing** (em) -0.035
@@ -100,9 +90,8 @@ Note: The letter spacing controls each heading level and will only affect that h
 - **h6 Letter Spacing** (em) -0.035
 
 
-- Text-transform: none
- - (Prefer 'Title Case') 
-
+- Text-Transform: none
+>Prefer 'Title Case'
 
 #### Site Links ####
 Note: Site link colors are also used as accents for various elements throughout the site, (make sure I select something i enjoy and keep an eye out for how it affects the rest of the design.)
@@ -125,53 +114,32 @@ Note: Site link colors are also used as accents for various elements throughout 
 - **Button Shape**: Square
 
 ####Buttons Colors ####
-
 - **Button Text**: rgb(255, 255, 255)
- - Hex6: #FFFFFF
  - Hex3: #FFF
- - **WebSafe**: #FFF
- - %: rgb(100%,100%,100%)
-
-
 - **Button Background**: rgb(0, 70, 140)
  - Hex6: #00468C
  - Hex3: #048
  - **WebSafe**: #039
  - %: rgb(0%,27%,55%)
-
-
 - **Button Border**: rgb(255, 255, 255)
- - Hex6: #FFFFFF
  - Hex3: #FFF
- - **WebSafe**: #FFF
- - %: rgb(100%,100%,100%)
 
 ####Buttons Hover Colors ####
-
 - **Button Text**: rgb(255, 255, 255)
- - Hex6: #FFFFFF
  - Hex3: #FFF
- - **WebSafe**: #FFF
- - %: rgb(100%,100%,100%)
-
-
 - **Button Background**: rgb(255, 0, 90)
  - Hex6: #FF005A
  - Hex3: #F05
  - **WebSafe**: #F06
  - %: rgb(100%,0%,35%)
-
-
 - **Button Border**: rgb(255, 255, 255)
- - Hex6: #FFFFFF
  - Hex3: #FFF
- - **WebSafe**: #FFF
- - %: rgb(100%,100%,100%)
+
 
 ## Header ##
-Logo and Navigation elements
+Navbar, Logo and Navigation elements
 
-#### Navbar #### 
+#### Navbar ####
 Note: "Navbar Top Height (px)" must be set even when using "Fixed Left" or "Fixed Right" positioning because on tablet and mobile devices, the menu is pushed to the top.
 
 - **Layout**: Inline
@@ -203,26 +171,17 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
 
 - **Navbar Font**: [Lato](https://fonts.google.com/specimen/Lato) (Google)
 - **Navbar Links Color**: rgb(255, 255, 255)
- - Hex6: #FFFFFF
  - Hex3: #FFF
- - **WebSafe**: #FFF
- - %: rgb(100%,100%,100%)
-
-
 - **Navbar Links Hover Color**: rgb(255, 228, 0)
  - Hex6: #FFE400
  - Hex3: #FD0
  - **WebSafe**: #FC0
  - %: rgb(100%,89%,0%)
-
-
 - **Navbar Links Accent Color**: rgb(255,0,90)
  - Hex6: #FF005A
  - Hex3: #F05
  - **WebSafe**: #F06
  - %: rgb(100%,0%,35%)
-
-
 - **Navbar Font Size** (px): 17px
 - **Navbar Font Weight**: 700 – Bold
 - **Navbar Letter Spacing (em)**: 0.048
