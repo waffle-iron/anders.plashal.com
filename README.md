@@ -2,7 +2,7 @@
 --
 Taken inspiration from Carmack, I'd like to document the happenings of this project. What i thought would be a quick turnaround progressed into a whirl-wind exorcise in [murphy's law](https://en.wikipedia.org/wiki/Murphy's_law). Crashed hdds, Monitors falling off mounts, a forced windows upgrade and a new baby on the way. I've tried my best to correct and compensate and we're still kicking over here, pushing out updates on the daily. With a need to update and migrate my work to a standardized development environment, I begin with [anders.plashal.com](http://andres.plashal.com).  
 	
-	2/1/17 4:20:54 PM: 
+	Wed. Feb 01, 2017- 4:20 PM: 
 	- Need to convert site colors into #websafe standard notation format (.css file)
 	- Add image block color to designations in this .md (for eyedropper ease)
 	- Continue to add to the TOC/ Complete hyperlinks
@@ -20,11 +20,19 @@ Table of Contents
  - [Hover Colors](#button-hover-colors)
 - [Header](#header)
  - [Navbar](#navbar)
- - Logo – Text
- - Logo – Image
- - Logo – Alignment
- - Links – Text
- - Links – Alignment
+ - [Logo – Text](#logo--text)
+ - [Logo – Image](#logo--image)
+ - [Logo – Alignment](#logo--alignment)
+ - [Navbar Links – Text](#navbar-links--text)
+ - [Navbar Links – Alignment](#navbar-links--alignment)
+- Footer
+- Blog
+- Portfolio
+- [Social](#social)
+ - Open Graph
+ - Social Fallback Image
+- [Site Icons](site-icons)
+- Menus
 
 
 References & Resources
@@ -162,10 +170,10 @@ The logo will show up as text by default. Alternately, if using an image, upload
 
 - Logo Font: [Lato](https://fonts.google.com/specimen/Lato) (Google)
 - Logo Font Color: rgb(255, 255, 255)
-- Logo Font Size (px): none
-- Logo Font Weight: none
-- Logo Letter Spacing (em): none
-- Uppercase?: none/ no
+- Logo Font Size (px): null 
+- Logo Font Weight: null
+- Logo Letter Spacing (em): null
+- Logo Text-transform/ Uppercase: null/ no
 
 #### Logo – Image ####
 Note: To make logo retina ready, enter in the width of uploaded image and use the processor code to take care of all the calculations. If i want the logo to stay the original size, then leave the field blank.
@@ -179,7 +187,6 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
 - **Navbar Top Logo Alignment (px)**: 20px
 
 #### Navbar Links – Text ####
-
 - **Navbar Font**: [Lato](https://fonts.google.com/specimen/Lato) (Google)
 - **Navbar Links Color**: rgb(255, 255, 255)
  - Hex3: #FFF
@@ -198,19 +205,36 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
 - **Navbar Letter Spacing (em)**: 0.048
 - **Navbar Text-Transform**: Uppercase
 
-
-#### Links – Alignment ####
+#### Navbar Links – Alignment ####
 Note: the vertical alignment of links for both top and side navbar positions as well as the vertical spacing between links for top navbar positions with the `Navbar Top Link Spacing`.
 
 - **Navbar Top Link Alignment** (px): 30
 - **Navbar Top Link Spacing** (px): 10
 
 ## Footer ##
+- **Excerpt Length**: 60 words
 
 ## Blog ##
 
 ## Portfolio ##
 
 ## Social ##
+
+#### Open Graph ####
+Note: This will output standard Open Graph tags for the content. If i decide to employ another solution for this, I can disable Open Graph tag output here. 
+
+- **Open Graph**: null/ Off
+
+#### Social Fallback Image  ####
+Note: The "Social Fallback Image" is used with various social media network APIs. It is used as a default on pages that do not have a featured image set. I don't have to specify one; however, it is recommended if I'm using the native Open Graph implementation to set this option, entry sharing, et cetera.
+- **Social Fallback Image**: null/ No image
+
+## Site Icons ##
+Note: touch icons for mobile devices and tile icon for the Windows 8/10 Metro interfaces are set in this section. If an image is not set, nothing will be output for that particular icon type. When setting the path to the favicon, make sure to use the ".ico" format. A 152x152 PNG should be used for the touch icon, and a 144x144 PNG should be used for the tile icon. The color set for the tile icon will be used behind the image.
+
+- **Favicon**: /favicon.ico
+- **Touch Icon **(iOS and Android): null/ No image
+- **Tile Icon **(Microsoft): null/ No image
+- **Tile Icon Background Color**: rgb(255, 255, 255)
 
 ## Menus ##
