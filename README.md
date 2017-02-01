@@ -7,6 +7,12 @@ notes for development of my site.
 - [Simple Change Case](https://convertcase.net/)
 - TODO: add link to color pallet pdf 
 
+**To calculate the percentage values** (0% to 100%), the integer values (0 to 255) are divided by 2.55 and then rounded to whole numbers.
+
+**To calculate the short hex values** (0 to 9 and A to F), the integer values (0 to 255) are divided by 17 and then rounded to whole numbers.
+
+**To calculate the web-safe values** (0, 3, 6, 9, C and F), the integer values (0 to 255) are divided by 51, rounded to whole numbers and the multiplied with 3.
+
 
 ## Layout and Design ##
 INFO: "Site Width" is the percentage of the screen the site should take up while think of "Site Max Width" as an upper limit that the site will *never* be wider than. "Content Layout" has to do with the site's global setup of having a sidebar or not.
@@ -24,7 +30,7 @@ INFO: The "Background Pattern" setting will override the "Background Color" unle
  - Hex6: #FFFFFF
  - Hex3: #FFF
  - **WebSafe**: #FFF
- - %:
+ - %: rgb(100%,100%,100%)
 - Background Pattern: null
 - Background Image: null
 - Background Image Fade (ms): 750
@@ -47,7 +53,11 @@ INFO: "Body Font Size (px)" will affect the sizing of all copy outside of a post
 INFO: The letter spacing controls each heading level and will only affect that heading if it does not have a "looks like" class or if the "looks like" class matches that level. example, an `<h1>` with no modifier class, the `<h1>` slider will affect that heading. However, if the `<h1>` has an `.h2` modifier class, then the `<h2>` slider will take over as it is supposed to appear as an `<h2>`.
 
 - **Headings Font**:[Lato](https://fonts.google.com/specimen/Lato) (Google)
-- **Headings Font Color**: rgb(0, 0, 0) / #000
+- **Headings Font Color**: rgb(0, 0, 0)
+ - Hex6: #000000
+ - Hex3: #000
+ - **WebSafe**: #000
+ - %: rgb(0%,0%,0%)
 - **Headings Font Weight**: 700 – Bold
 - Uppercase: null
 - **h1 Letter Spacing** (em) -0.035
@@ -66,8 +76,12 @@ INFO: Site link colors are also used as accents for various elements throughout 
  - **web-safe**: #09C
  - %: rgb(0%,53%,85%)
 
-**Site Links Hover**: 
-
+**Site Links Hover**: rgb(255, 0, 90)
+ - Hex6: #FF005A
+ - Hex3: #F05
+ - **web-safe**: #F06
+ - %: rgb(100%,0%,35%)
+ - 
 ## Buttons ##
 
 ## Header ##
