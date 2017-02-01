@@ -1,5 +1,12 @@
 # anders.plashal.com
-public wordpress local/github repo
+notes for development of my site. 
+
+### Web References:  ###
+- [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [CSS Color Converter](http://maettig.com/?page=PHP/CSS_Color_Converter)
+- [Simple Change Case](https://convertcase.net/)
+- TODO: add link to color pallet pdf 
+
 
 ## Layout and Design ##
 INFO: "Site Width" is the percentage of the screen the site should take up while think of "Site Max Width" as an upper limit that the site will *never* be wider than. "Content Layout" has to do with the site's global setup of having a sidebar or not.
