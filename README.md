@@ -1,7 +1,6 @@
 ## Table of Contents ##
 - [LAYOUT AND DESIGN](#layout-and-design)
- - Responsive Breakpoints
-  - Refined Breakpoints
+ - [Responsive Breakpoints](#refined-breakpoints)
  - [Background Options](#background-options)
 - [TYPOGRAPHY](#typography)
  - [Body and Content](#body-and-content)
@@ -17,16 +16,17 @@
  - [Logo – Alignment](#logo-alignment)
  - [Navbar Links – Text](#navbar-links-text)
  - [Navbar Links - Alignment](#navbar-links-alignment)
- - Mobile Button
-- FOOTER
-- BLOG
-- PORTFOLIO
+ - [Mobile Button](#mobile-button)
+- [FOOTER](#footer)
+- [BLOG](#blog)
+- [PORTFOLIO](#portfolio)
 - [SOCIAL](#social)
- - Media Accounts
- - Open Graph
- - Social Fallback Image
+ - [Media Accounts](#media-accounts)
+ - [Social Media - Colors](#social-media-colors)
+ - [Open Graph](#open-graph)
+ - [Social Fallback Image](#soical-fallback-image)
 - [SITE ICONS](#site-icons)
-- MENUS
+- [MENUS](#menu)
 
 
 > **Bold** selectors denotes items of importance
@@ -50,27 +50,17 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 3. **LargeMedium**: 979px `!default;` 
 4. Large: 1200px
 
-
-#### REFINED BREAKPOINTS ####
-
+**Breakdown:**
 - **Phone** –  Extra Small: 480px & Smaller
  - @media (max-width: 480px) `!default;`
-
-
 - **Tablet** (*Portrait*) – Medium: 481px – 767px
  - @media (max-width: 767px) `!default;`
-
-
 - Tablet (*Landscape*) – MediumLarge: 768px – 979px
- - @media (max-width: 979px) `!default;` // ( anything +1 = default desktop)
-
-
+ - @media (max-width: 979px) `!default;` // (+1 = default desktop)
 - Notebook – Large: 980px – 1199px
  - @media (max-width: 1199px)
-
-
 - **Desktop** – Extra Large: 1200px & Up
- - @media (min-width: 1200px) `!default;`
+ - @media (min-width: 1200px)
 
 #### BACKGROUND OPTIONS ####
 Note: The "Background Pattern" setting will override the "Background Color" unless the image used is transparent, and the "Background Image" option will take precedence over both. The "Background Image Fade (ms)" option allows to set a time in milliseconds for an image to fade in. value of "0" disables. (1000ms = 1sec)
@@ -79,6 +69,13 @@ Note: The "Background Pattern" setting will override the "Background Color" unle
 - Background Pattern: none
 - Background Image: none
 - Background Image Fade (ms): 750
+
+#### RENEW OPTIONS ####
+- [Renew Options- Color](renew-Options-color)
+- [Renew Options- Typography](#renew-options-typography)
+- [Renew Options- Blog](#renew-options-blog)
+- [Renew Options- Mobile](#renew-options-mobile)
+
 
 ## Typography ##
 Note: Global typography options for the body copy and headings, while more specific typography options for elements like your navbar are found grouped with that element section to make customization more streamlined. If using Google Fonts, I can also enable custom subsets here for expanded character sets.
@@ -148,8 +145,19 @@ Note: "Navbar Top Height (px)" must be set even when using "Fixed Left" or "Fixe
 - Navbar Position: Static Top
 - Layout: Inline
 - **Navbar Top Height** (px): 90
+- **Navbar Background**: rgb(0, 70, 140) `!renew option`
 
-#### LOGO – TEXT ####
+#### RENEW OPTIONS COLOR ####
+- Topbar Background: rgba(250, 255, 0, 0.50) `!renew option`
+- Logobar Background: rgba(255, 0, 168, 0.50) `!renew option`
+
+#### RENEW OPTIONS TYPOGRAPHY ####
+Colors for the Top-Topbar if invoked. Temp colors are applied (neon green)
+
+- Topbar Links and Text: rgba(0, 255, 0, 0.5) `!renew option`
+- Topbar Links Hover: rgba(255, 0, 140, 0.5) `!renew option`
+
+#### LOGO TEXT ####
 The logo will show up as text by default. Alternately, if using an image, upload and the code will automatically switch over.
 
 - Logo Font: [Open Sans](https://fonts.google.com/specimen/Open+Sans) (Google)
@@ -159,18 +167,18 @@ The logo will show up as text by default. Alternately, if using an image, upload
 - Logo Letter Spacing (em): -0.070
 - Logo Text-transform: none
 
-#### LOGO – IMAGE ####
+#### LOGO IMAGE ####
 Note: To make logo retina ready, enter in the width of uploaded image and use the processor code to take care of all the calculations. If i want the logo to stay the original size, then leave the field blank.
 
 - Logo Upload: logo-plashal.svg
 - Logo Width (px): 200
 
-#### LOGO – ALIGNMENT ####
+#### LOGO ALIGNMENT ####
 Note: Use the following controls to vertically align the logo. Make sure to adjust top alignment even if the navbar is `fixed` to a side as it will reformat to the top on smaller screens (this control will be hidden if side navigation position is not implemented).
 
 - **Navbar Top Logo Alignment (px)**: 22
 
-#### NAVBAR LINKS – TEXT ####
+#### NAVBAR LINKS TEXT ####
 
 - Navbar Font: [Roboto](https://fonts.google.com/specimen/Roboto) (Google)
 - Navbar Links Color**: rgb(255, 255, 255)
@@ -181,7 +189,7 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
 - Navbar Letter Spacing (em): 0.09
 - Navbar Text-Transform: none
 
-#### NAVBAR LINKS – ALIGNMENT ####
+#### NAVBAR LINKS ALIGNMENT ####
 Note: the vertical alignment of links for both top and side navbar positions as well as the vertical spacing between links for top navbar positions with the `Navbar Top Link Spacing`.
 
 - **Navbar Top Link Alignment** (px): 37
@@ -193,11 +201,18 @@ The vertical alignment and size of the mobile button that appears on smaller scr
 - Mobile Navbar Button Size (px): 24
 - Mobile Navbar Button Alignment (px): 20
 
+#### RENEW OPTIONS MOBILE ####
+- Mobile Button Color: rgba(255, 255, 0, 0.5) `!renew option`
+- Mobile Button Background: rgba(0, 255, 248, 0.5) `!renew option`
+- Mobile Button Background Hover: rgba(255, 0, 0, 0.5) `!renew option`
+ 
 ## Footer ##
-	need to populate
+
+#### RENEW OPTIONS TYPOGRAPHY ####
+- **Footer Links and Text**: rgb(255, 255, 255) `!renew option`
+- **Footer Background**: rgb(51,51,51) `!renew option`
 
 ## Blog ##
-- Columns: 3
 
 #### CONTENT ####
 Note: The "Enable Full Post Content on Index" option will allow the entire contents of the posts to be shown on the post index pages for all stacks. Deselecting will allow to set the length of the excerpt.
@@ -205,6 +220,14 @@ Note: The "Enable Full Post Content on Index" option will allow the entire conte
 - Post Meta: off 
 - Excerpt Length: 60 words
 
+#### RENEW OPTIONS- BLOG ####
+Note: The entry icon color is for post icons to the left of each title. Selecting "Creative" under the "Entry Icon Position" will allow aligning entry icons in different manners on posts index page when "Content Left, Sidebar Right" or "Fullwidth" are invoked; as "Content Layout" and when blog "Style" is set to "Standard." This feature is intended to be paired with a "Boxed" layout.
+
+- Blog Title: Blog `!renew option`
+- Entry Icons: rgb(221, 221, 221) `!renew option`
+- Entry Icon Position: Creative
+- Entry Icon Horizontal Alignment (%): 18 `!renew option`
+- Entry Icon Vertical Alignment (px): 25 `!renew option`
 
 
 ## Portfolio ##
@@ -220,7 +243,9 @@ Note: The "Enable Full Post Content on Index" option will allow the entire conte
 - Slack: https://plashal.slack.com/
 - Skype: live:plashal
 
-#### SOCIAL MEDIA - COLORS ####
+#### SOCIAL MEDIA COLORS ####
+> :exclamation: This information is not applicable to this document/ need to move 
+
 - **Facebook**:
  - Primary: Blue
    - rgb(59, 89, 152)
