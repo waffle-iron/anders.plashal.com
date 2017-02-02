@@ -81,18 +81,10 @@ Online, concise copy ~~will always get~~ gets better results than verbose copy.
 
 2. **Get rid of meaningless words.** Concise copy is always better, right? Plus folks are reading this online. 
 ~~Online,~~ Concise copy ~~will always get~~ gets better results than verbose copy.
-
-<<<<<<< HEAD
 3. **Get rid of repeated words.**
 In copy, concise ~~copy~~ gets better results than verbose~~copy~~.
 
 4. **Replace four words with one.**
-=======
-3.**Get rid of repeated words.**
-In copy, concise ~~copy~~ gets better results than verbose~~copy~~.
-
-4.**Replace four words with one.**
->>>>>>> origin/master
 In copy, concise ~~gets better results than~~ beats verbose.
 
 5. **Make sure it reads OK.** In this case, I’m not thrilled with my phrasing. A little rejiggering does the trick:
