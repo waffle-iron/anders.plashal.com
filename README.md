@@ -71,9 +71,9 @@ Note: The "Background Pattern" setting will override the "Background Color" unle
 - Background Image Fade (ms): 750
 
 #### RENEW OPTIONS ####
-- [Renew Options- Color](renew-Options-color)
+- [Renew Options- Color](#renew-options-color)
 - [Renew Options- Typography](#renew-options-typography)
-- [Renew Options- Blog](#renew-options-blog)
+- [Renew Options- Blog](#renew-options--blog)
 - [Renew Options- Mobile](#renew-options-mobile)
 
 
