@@ -1,20 +1,16 @@
 ## Table of Contents ##
-- [Layout and Design](#layout-and-design)
+- [LAYOUT AND DESIGN](#layout-and-design)
+ - Responsive Breakpoints
+  - Refined Breakpoints
  - [Background Options](#background-options)
- 
-
-- [Typography](#typography)
+- [TYPOGRAPHY](#typography)
  - [Body and Content](#body-and-content)
  - [Headings](#headings)
  - [Site Links](#site-links)
-
-
-- [Buttons](#buttons)
+- [BUTTONS](#buttons)
  - [Buttons Colors](#buttons-colors)
  - [Hover Colors](#button-hover-colors)
-
-
-- [Header](#header)
+- [HEADER](#header)
  - [Navbar](#navbar)
  - [Logo – Text](#logo-text)
  - [Logo – Image](#logo-image)
@@ -22,20 +18,19 @@
  - [Navbar Links – Text](#navbar-links-text)
  - [Navbar Links - Alignment](#navbar-links-alignment)
  - Mobile Button
-
-
-- Footer
-- Blog
-- Portfolio
-- [Social](#social)
+- FOOTER
+- BLOG
+- PORTFOLIO
+- [SOCIAL](#social)
  - Media Accounts
  - Open Graph
  - Social Fallback Image
-- [Site Icons](#site-icons)
-- Menus
+- [SITE ICONS](#site-icons)
+- MENUS
 
 
 > **Bold** selectors denotes items of importance
+
 
 ## Layout and Design ##
 Note: "Site Width" is the percentage of the screen the site should take up while think of "Site Max Width" as an upper limit that the site will *never* be wider than. "Content Layout" has to do with the site's global setup of having a sidebar or not.
@@ -46,8 +41,39 @@ Note: "Site Width" is the percentage of the screen the site should take up while
 - Content Layout: Content Left, Sidebar Right
 - **Content Width** (%): 70
 
+#### RESPONSIVE BREAKPOINTS ####
+Default Media Query Breakpoints for Standard Devices (and since it standardized and a default, there's *like* 90 of them) 
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+1. **Small**: 480px `!default;`
+2. **Medium**: 767px `!default;`
+3. **LargeMedium**: 979px `!default;` 
+4. Large: 1200px
+
+
+#### REFINED BREAKPOINTS ####
+
+- **Phone** –  Extra Small: 480px & Smaller
+ - @media (max-width: 480px) `!default;`
+
+
+- **Tablet** (*Portrait*) – Medium: 481px – 767px
+ - @media (max-width: 767px) `!default;`
+
+
+- Tablet (*Landscape*) – MediumLarge: 768px – 979px
+ - @media (max-width: 979px) `!default;` // ( anything +1 = default desktop)
+
+
+- Notebook – Large: 980px – 1199px
+ - @media (max-width: 1199px)
+
+
+- **Desktop** – Extra Large: 1200px & Up
+ - @media (min-width: 1200px) `!default;`
+
 #### BACKGROUND OPTIONS ####
-Note: The "Background Pattern" setting will override the "Background Color" unless the image used is transparent, and the "Background Image" option will take precedence over both. The "Background Image Fade (ms)" option allows to set a time in milliseconds for an image to fade in. value of "0" disables.
+Note: The "Background Pattern" setting will override the "Background Color" unless the image used is transparent, and the "Background Image" option will take precedence over both. The "Background Image Fade (ms)" option allows to set a time in milliseconds for an image to fade in. value of "0" disables. (1000ms = 1sec)
 
 - **Background Color**: rgb(255,255,255)
 - Background Pattern: none
@@ -57,12 +83,12 @@ Note: The "Background Pattern" setting will override the "Background Color" unle
 ## Typography ##
 Note: Global typography options for the body copy and headings, while more specific typography options for elements like your navbar are found grouped with that element section to make customization more streamlined. If using Google Fonts, I can also enable custom subsets here for expanded character sets.
 
-Google Fonts Subsets: null/ off
+- Google Fonts Subsets: null/ off
 
 #### BODY AND CONTENT ####
 INFO: "Body Font Size (px)" will affect the sizing of all copy outside of a post or page content area. "Content Font Size (px)" will affect the sizing of all copy inside a post or page content area. Headings are set with percentages and sized proportionally to these settings.
 
-- **Body Font**: [Open Sans](https://fonts.google.com/specimen/Open+Sans) (Google)
+- **Body Font**: [Roboto](https://fonts.google.com/specimen/Roboto) (Google)
 - **Body Font Color**: rgb(9,7,7)
  - hex6: #090707
  - hex3: #100
@@ -73,7 +99,7 @@ INFO: "Body Font Size (px)" will affect the sizing of all copy outside of a post
 #### HEADINGS ####
 Note: The letter spacing controls each heading level and will only affect that heading if it does not have a "looks like" class or if the "looks like" class matches that level. example, an `<h1>` with no modifier class, the `<h1>` slider will affect that heading. However, if the `<h1>` has an `.h2` modifier class, then the `<h2>` slider will take over as it is supposed to appear as an `<h2>`.
 
-- **Headings Font**: [Roboto](https://fonts.google.com/specimen/Roboto) (Google)
+- **Headings Font**: [Open Sans](https://fonts.google.com/specimen/Open+Sans) (Google)
 - **Headings Font Color**: rgb(39, 39, 39)
  - hex6: #272727
 - **Headings Font Weight**: 400 – Regular
@@ -94,8 +120,8 @@ Note: Site link colors are also used as accents for various elements throughout 
  - Hex6: #0087D8
 - **Site Links Hover**: rgb(255, 0, 90)
  - Hex6: #FF005A
-- Highlight Color Dark: :heavy_exclamation_mark:
-- Highlight Color Light: :heavy_exclamation_mark:
+- :red_circle: Highlight Color Dark: `.x-highlight.dark`
+- :red_circle: Highlight Color Light: `.x-highlight`
 
 ## Buttons ##
 - Button Style: Flat
@@ -119,8 +145,8 @@ Navbar, Logo and Navigation elements
 #### NAVBAR ####
 Note: "Navbar Top Height (px)" must be set even when using "Fixed Left" or "Fixed Right" positioning because on tablet and mobile devices, the menu is pushed to the top.
 
-- Layout: Inline
 - Navbar Position: Static Top
+- Layout: Inline
 - **Navbar Top Height** (px): 90
 
 #### LOGO – TEXT ####
@@ -149,7 +175,7 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
 - Navbar Font: [Roboto](https://fonts.google.com/specimen/Roboto) (Google)
 - Navbar Links Color**: rgb(255, 255, 255)
 - Navbar Links Hover Color: rgb(255, 255, 255)
-- Navbar Links Accent Color: :heavy_exclamation_mark:
+- :red_circle: Navbar Links Accent Color: (line on MouseOver)
 - **Navbar Font Size** (px): 19
 - Navbar Font Weight: 500 – Medium
 - Navbar Letter Spacing (em): 0.09
