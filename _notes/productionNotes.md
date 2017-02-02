@@ -30,6 +30,20 @@ ToC
 - 11 **More Contrast** instead of similarity.
 	Making your calls to action be a bit more prominent and distinguishable in relation to the elements surrounding them, will make your UI stronger. You can easily increase the contrast of your primary calls to action in a number of ways. Using tone, you can make certain elements appear darker vs. lighter. With depth, you can make an item appear closer while the rest of the content looks like it's further (talking drop shadows and gradients here). Finally, you can also pick complementary colors from the color wheel (ex: yellow and violet) to raise contrast even further. Taken together, a higher contrast between your call to action and the rest of the page should be considered.
 
+- 13 **Fewer Form Fields** instead of asking for too many.
+	Human beings are inherently resistant to labor intensive tasks and this same idea also applies to filling out form fields. Each field you ask for runs the risk of making your visitors turn around and give up. Not everyone types at the same speed, while typing on mobile devices is still a chore in general. Question if each field is really necessary and remove as many fields as possible. If you really have numerous optional fields, then also consider moving them after form submission on a separate page or state. It's so easy to bloat up your forms, yet fewer fields will convert better. Evidence Exists For A [+7.6% Effect From This Idea](http://www.goodui.org/evidence/?13)
+
+- 14 **Exposing Options** instead of hiding them. 
+	Each pull down menu that you use, hides a set of actions within which require effort to be discovered. If those hidden options are central along the path to getting things done by your visitors, then you might wish to consider surfacing them a bit more up front. Try to reserve pull down menus for options that are predictable and don’t require new learning as in sets of date and time references (ex: calendars) or geographic sets. Occasionally pull down menu items can also work for those interfaces that are highly recurring in terms of use - actions that a person will use repeatedly over time (ex: action menus). Be careful of using drop downs for primary items that are on your path to conversion. Evidence Exists For [A +50.8% Effect From This Idea](http://www.goodui.org/evidence/?14)
+
+- 15 **Suggesting Continuity** instead of false bottoms.
+	A false bottom is a conversion killer. Yes, scrolling long pages are great, but be careful of giving your visitors a sense that the page has come to an end somewhere in between sections where it really hasn't. If your pages will scroll, try to establish a visual pattern or rhythm that the user can learn and rely on to read further down. Secondarily, be careful of big gaps in around the areas of where the fold can appear (of course I’m referring to a area range here with so many device sizes out there).
+	![](http://www.goodui.org/images/idea015.png)
+
+- 16 **Keeping Focus** instead of drowning with links.
+	It’s easy to create a page with lots of links going left and right in the hope of meeting as many customer needs as possible. If however you’re creating a narrative page which is building on towards a specific call to action at the bottom, then think twice. Be aware that any link above the primary CTA runs the risk of taking your customers away from what you’ve been hoping them to do. Keep an eye out on the number of links on your pages and possibly balance discovery style pages (a bit heavier on the links) with tunnel style pages (with fewer links and higher conversions). Removing extraneous links can be a sure way to increase someone’s chances of reaching that important button. Evidence Exists For [A +5.6% Effect From This Idea](http://www.goodui.org/evidence/?16)
+ 
+
 #### UX Links  ####
 - [http://www.goodui.org/](http://www.goodui.org/#1)
 
