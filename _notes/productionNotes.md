@@ -76,19 +76,19 @@ Brevity is the soul of wit (Lord Polonius in Shakespeare’s Hamlet)
 Online, concise copy will always get better results than verbose copy.
 How can I make that sentence shorter and give it more oomph?
 
-1. Dump the passive voice.
+1. **Dump the passive voice.**
 Online, concise copy ~~will always get~~ gets better results than verbose copy.
 
-2. Get rid of meaningless words. Concise copy is always better, right? Plus folks are reading this online. 
+2. **Get rid of meaningless words.** Concise copy is always better, right? Plus folks are reading this online. 
 ~~Online,~~ Concise copy ~~will always get~~ gets better results than verbose copy.
 
-3. Get rid of repeated words.
+3.** Get rid of repeated words.**
 In copy, concise ~~copy~~ gets better results than verbose~~copy~~.
 
-4. Replace four words with one.
+4.** Replace four words with one.**
 In copy, concise ~~gets better results than~~ beats verbose.
 
-5. Make sure it reads OK. In this case, I’m not thrilled with my phrasing. A little rejiggering does the trick:
+5. **Make sure it reads OK.** In this case, I’m not thrilled with my phrasing. A little rejiggering does the trick:
 Concise copy beats verbose. 
 
 The result is better. This:
