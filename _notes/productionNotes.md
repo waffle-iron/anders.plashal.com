@@ -24,11 +24,12 @@ ToC
 	Are you targeting everyone or are you precise with your audience? This is a conversion idea where you could be explicit about who exactly your product or service is intended for. By communicating the qualifying criteria of your customers, you might be able to actually connect more with them while at the same time hinting at a feeling of exclusivity. The risk with this strategy of course is that you might be cutting yourself short and restricting potential customers. Then again, transparency builds trust.
 	(Side note: Enjoying the little characters style? Please be sure to check out [MicroPersonas](http://www.linowski.ca/micropersonas).)
 
-- 10 **Be Direct **instead of indecisive.
+- 10 **Be Direct** instead of indecisive.
 	You can send your message with uncertainty trembling in your voice, or you can say it with confidence. If you're ending your messaging with question marks, using terms such as "perhaps", "maybe", "interested?" and "want to?", then most likely you have some opportunity to be a bit more authoritative. Who knows, maybe there is a bit more room for telling people what to do next in the world of conversion optimization.
 
-- 11 ** More Contrast** instead of similarity.
+- 11 **More Contrast** instead of similarity.
 	Making your calls to action be a bit more prominent and distinguishable in relation to the elements surrounding them, will make your UI stronger. You can easily increase the contrast of your primary calls to action in a number of ways. Using tone, you can make certain elements appear darker vs. lighter. With depth, you can make an item appear closer while the rest of the content looks like it's further (talking drop shadows and gradients here). Finally, you can also pick complementary colors from the color wheel (ex: yellow and violet) to raise contrast even further. Taken together, a higher contrast between your call to action and the rest of the page should be considered.
+
 #### UX Links  ####
 - [http://www.goodui.org/](http://www.goodui.org/#1)
 
@@ -41,7 +42,8 @@ ToC
 - [Quick Type Change Case](https://convertcase.net/)
 - [Approximate Conversions: Points> Pixels> Ems> %](http://reeddesign.co.uk/test/points-pixels.html)
 - [CSS Font-Size: em vs. px vs. pt vs. percent](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
- Meet the Units: **1em = 12pt = 16px = 100%**
+
+ Meet the Units: **1em** = **12pt** = **16px** = **100%**
  - **“Ems” (em)**: The “em” is a scalable unit that is used in web document media. An em is equal to the current font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 12pt. Ems are scalable in nature, so 2em would equal 24pt, .5em would equal 6pt, etc. Ems are becoming increasingly popular in web documents due to scalability and their mobile-device-friendly nature.
  - **Pixels (px)**: Pixels are fixed-size units that are used in screen media (i.e. to be read on the computer screen). One pixel is equal to one dot on the computer screen (the smallest division of your screen’s resolution). Many web designers use pixel units in web documents in order to produce a pixel-perfect representation of their site as it is rendered in the browser. One problem with the pixel unit is that it does not scale upward for visually-impaired readers or downward to fit mobile devices.
  - **Points (pt)**: Points are traditionally used in print media (anything that is to be printed on paper, etc.). One point is equal to 1/72 of an inch. Points are much like pixels, in that they are fixed-size units and cannot scale in size.
