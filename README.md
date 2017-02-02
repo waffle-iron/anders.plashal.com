@@ -26,20 +26,32 @@
 
 > **Bold** variables denotes items of interest
 
+#### Renew Colors/ Unsorted ####
+
+- Topbar Background:
+- Logobar Background:
+- **Navbar Background**: rgb(231,29,54)
+- Mobile Button Color:
+- Mobile Button Background:
+- Mobile Button Background Hover:
+- **Footer Background**: rgb(51,51,51)
+
+---
+
 ## Layout and Design ##
 Note: "Site Width" is the percentage of the screen the site should take up while think of "Site Max Width" as an upper limit that the site will *never* be wider than. "Content Layout" has to do with the site's global setup of having a sidebar or not.
 
 - **Site Layout**: Fullwidth
 - **Content Layout**: Content Left, Sidebar Right
 - **Site Max Width**: 1200px
-- **Site Width**: 80%
-- **Sidebar Width**: 250px
-
+- **Content Width** (%): 70
+- **Site Width** (%): 80%
+- 
 #### Background Options ####
 Note: The "Background Pattern" setting will override the "Background Color" unless the image used is transparent, and the "Background Image" option will take precedence over both. The "Background Image Fade (ms)" option allows to set a time in milliseconds for an image to fade in. value of "0" disables. 
 
-- **Background Color**: rgb(255, 255, 255)
- - Hex3: #FFF
+- **Background Color**: rgb(204,204,204)
+ - Hex3: #CCC
 - Background Pattern: none
 - Background Image: none
 - Background Image Fade (ms): 750
@@ -47,12 +59,12 @@ Note: The "Background Pattern" setting will override the "Background Color" unle
 ## Typography ##
 Note: Global typography options for the body copy and headings, while more specific typography options for elements like your navbar are found grouped with that element section to make customization more streamlined. If using Google Fonts, I can also enable custom subsets here for expanded character sets.
 
-Google Fonts Subsets: none
+Google Fonts Subsets: null/ off
 
 #### Body and Content ####
 INFO: "Body Font Size (px)" will affect the sizing of all copy outside of a post or page content area. "Content Font Size (px)" will affect the sizing of all copy inside a post or page content area. Headings are set with percentages and sized proportionally to these settings.
 
-- **Body Font**: [Lato](https://fonts.google.com/specimen/Lato) (Google)
+- **Body Font**: [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) (Google)
 - **Body Font Color**: rgb(0, 0, 0)
 - **Body Font Size** 17px
 - **Content Font Size**: 17px
@@ -127,7 +139,7 @@ Note: "Navbar Top Height (px)" must be set even when using "Fixed Left" or "Fixe
 
 - **Layout**: Inline
 - **Navbar Position**: Fixed Top
-- **Navbar Top Height **(px): 80px
+- **Navbar Top Height** (px): 80px
 
 #### Logo – Text ####
 The logo will show up as text by default. Alternately, if using an image, upload and the code will automatically switch over.
@@ -142,8 +154,8 @@ The logo will show up as text by default. Alternately, if using an image, upload
 #### Logo – Image ####
 Note: To make logo retina ready, enter in the width of uploaded image and use the processor code to take care of all the calculations. If i want the logo to stay the original size, then leave the field blank.
 
-- **Logo Upload**: andresfoxplashal.logo_yellow.svg
-- **Logo Width (px)**: 425px
+- **Logo Upload**: plashal-logo.svg
+- **Logo Width** (px): 200
 
 #### Logo – Alignment ####
 Note: Use the following controls to vertically align the logo. Make sure to adjust top alignment even if the navbar is `fixed` to a side as it will reformat to the top on smaller screens (this control will be hidden if side navigation position is not implemented).
