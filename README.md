@@ -1,7 +1,7 @@
 .plan file for andres.plashal
 --
-Taken inspiration from Carmack, I'd like to document the happenings of this project. What i thought would be a quick turnaround progressed into a whirl-wind exorcise in [murphy's law](https://en.wikipedia.org/wiki/Murphy's_law). Crashed hdds, Monitors falling off mounts, a forced windows upgrade and a new baby on the way. I've tried my best to correct and compensate and we're still kicking over here, pushing out updates on the daily. With a need to update and migrate my work to a standardized development environment, I begin with [anders.plashal.com](http://andres.plashal.com).  
-	
+Taken inspiration from Carmack, I'd like to document the happenings of this project. What i thought would be a quick turnaround progressed into a whirl-wind exorcise in [murphy's law](https://en.wikipedia.org/wiki/Murphy's_law). Crashed hdds, Monitors falling off mounts, a forced windows upgrade and a new baby on the way. I've tried my best to correct and compensate and we're still kicking over here, pushing out updates on the daily. With a need to update and migrate my work to a standardized development environment, I begin with [anders.plashal.com](http://andres.plashal.com).
+
 	Wed. Feb 01, 2017- 4:20 PM: 
 	- Need to convert site colors into #websafe standard notation format (.css file)
 	- Add image block color to designations in this .md (for eyedropper ease)
@@ -55,7 +55,7 @@ References & Resources
 
 
 **Color Related**
-- [CSS Color Converter](http://maettig.com/?page=PHP/CSS_Color_Converter) 
+- [CSS Color Converter](http://maettig.com/?page=PHP/CSS_Color_Converter)
 - [Wikipedia: Web Colors](https://en.wikipedia.org/wiki/Web_colors)
  Color Calculations
  - **To calculate the percentage values** (0% to 100%), the integer values (0 to 255) are divided by 2.55 and then rounded to whole numbers.
@@ -171,7 +171,7 @@ The logo will show up as text by default. Alternately, if using an image, upload
 
 - Logo Font: [Lato](https://fonts.google.com/specimen/Lato) (Google)
 - Logo Font Color: rgb(255, 255, 255)
-- Logo Font Size (px): null 
+- Logo Font Size (px): null
 - Logo Font Weight: null
 - Logo Letter Spacing (em): null
 - Logo Text-transform/ Uppercase: null/ no
