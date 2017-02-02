@@ -6,7 +6,7 @@ ToC
 - [Type & Measurement](#type--measurement)
 - [Copy Writing](#copy-writing)
 - [Color Related](#color-related)
-
+- [Cheat Sheets](#cheat-sheets)
 ## User Experience  ##
 
 - 01 **One Column Layout** instead of multicolumns.
@@ -82,22 +82,19 @@ Online, concise copy ~~will always get~~ gets better results than verbose copy.
 2. **Get rid of meaningless words.** Concise copy is always better, right? Plus folks are reading this online. 
 ~~Online,~~ Concise copy ~~will always get~~ gets better results than verbose copy.
 
-3.** Get rid of repeated words.**
+3. **Get rid of repeated words.**
 In copy, concise ~~copy~~ gets better results than verbose~~copy~~.
 
-4.** Replace four words with one.**
+4. **Replace four words with one.**
 In copy, concise ~~gets better results than~~ beats verbose.
 
 5. **Make sure it reads OK.** In this case, I’m not thrilled with my phrasing. A little rejiggering does the trick:
 Concise copy beats verbose. 
 
-The result is better. This:
+The result is better. **This:**
 Online, concise copy will always get better results than verbose copy.
-became this:
+**became this:**
 Concise copy beats verbose.
-
-
-
 
 ## Color Related ##
 - [CSS Color Converter](http://maettig.com/?page=PHP/CSS_Color_Converter)
@@ -106,3 +103,6 @@ Concise copy beats verbose.
  - **To calculate the percentage values** (0% to 100%), the integer values (0 to 255) are divided by 2.55 and then rounded to whole numbers.
  - **To calculate the short hex values** (0 to 9 and A to F), the integer values (0 to 255) are divided by 17 and then rounded to whole numbers.
  - **To calculate the web-safe values** (0, 3, 6, 9, C and F), the integer values (0 to 255) are divided by 51, rounded to whole numbers and the multiplied with 3.
+
+## Cheat Sheets ##
+- [EMOJI CHEAT SHEET](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
