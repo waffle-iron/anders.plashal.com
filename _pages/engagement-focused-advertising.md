@@ -10,27 +10,27 @@ published: true
 slide_template:
   - ""
 sharing_disabled:
-  - "1"
+  - 'a:1:{i:0;s:1:"1";}'
 switch_like_status:
-  - "1"
+  - 'a:1:{i:0;s:1:"1";}'
 eg_sources_html5_mp4:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_html5_ogv:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_html5_webm:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_youtube:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_vimeo:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_wistia:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_image:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_iframe:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_sources_soundcloud:
-  - ""
+  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
 eg_vimeo_ratio:
   - "0"
 eg_youtube_ratio:
@@ -50,23 +50,23 @@ eg_settings_custom_meta_setting:
 eg_settings_custom_meta_style:
   - ""
 the_grid_item_custom_link_target:
-  - _self
+  - 'a:1:{i:0;s:5:"_self";}'
 the_grid_item_col:
-  - "1"
+  - 'a:1:{i:0;s:1:"1";}'
 the_grid_item_row:
-  - "1"
+  - 'a:1:{i:0;s:1:"1";}'
 the_grid_item_content_color:
-  - dark
+  - 'a:1:{i:0;s:4:"dark";}'
 the_grid_item_overlay_color:
-  - light
+  - 'a:1:{i:0;s:5:"light";}'
 the_grid_item_video_ratio:
-  - 4:3
+  - 'a:1:{i:0;s:3:"4:3";}'
 the_grid_item_youtube_ratio:
-  - 4:3
+  - 'a:1:{i:0;s:3:"4:3";}'
 the_grid_item_vimeo_ratio:
-  - 4:3
+  - 'a:1:{i:0;s:3:"4:3";}'
 the_grid_item_wistia_ratio:
-  - 4:3
+  - 'a:1:{i:0;s:3:"4:3";}'
 inline_featured_image:
   - "0"
 ---
