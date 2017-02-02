@@ -7,68 +7,68 @@ post_excerpt: ""
 layout: page
 permalink: http://andres.plashal.com/
 published: true
-slide_template:
-  - ""
 sharing_disabled:
-  - 'a:1:{i:0;s:1:"1";}'
-switch_like_status:
-  - 'a:1:{i:0;s:1:"1";}'
-eg_sources_html5_mp4:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_html5_ogv:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_html5_webm:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_youtube:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_vimeo:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_wistia:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_image:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_iframe:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_sources_soundcloud:
-  - 's:27:"a:1:{i:0;s:0:&quot;&quot;;}";'
-eg_vimeo_ratio:
-  - "0"
-eg_youtube_ratio:
-  - "0"
-eg_wistia_ratio:
-  - "0"
-eg_html5_ratio:
-  - "0"
-eg_soundcloud_ratio:
-  - "0"
-eg_settings_custom_meta_skin:
-  - ""
-eg_settings_custom_meta_element:
-  - ""
-eg_settings_custom_meta_setting:
-  - ""
-eg_settings_custom_meta_style:
-  - ""
+  - 'a:1:{i:0;s:18:"a:1:{i:0;s:1:"1";}";}'
 the_grid_item_custom_link_target:
-  - 'a:1:{i:0;s:5:"_self";}'
+  - 'a:1:{i:0;s:22:"a:1:{i:0;s:5:"_self";}";}'
 the_grid_item_col:
-  - 'a:1:{i:0;s:1:"1";}'
+  - 'a:1:{i:0;s:18:"a:1:{i:0;s:1:"1";}";}'
 the_grid_item_row:
-  - 'a:1:{i:0;s:1:"1";}'
+  - 'a:1:{i:0;s:18:"a:1:{i:0;s:1:"1";}";}'
 the_grid_item_content_color:
-  - 'a:1:{i:0;s:4:"dark";}'
+  - 'a:1:{i:0;s:21:"a:1:{i:0;s:4:"dark";}";}'
 the_grid_item_overlay_color:
-  - 'a:1:{i:0;s:5:"light";}'
+  - 'a:1:{i:0;s:22:"a:1:{i:0;s:5:"light";}";}'
 the_grid_item_video_ratio:
-  - 'a:1:{i:0;s:3:"4:3";}'
+  - 'a:1:{i:0;s:20:"a:1:{i:0;s:3:"4:3";}";}'
 the_grid_item_youtube_ratio:
-  - 'a:1:{i:0;s:3:"4:3";}'
+  - 'a:1:{i:0;s:20:"a:1:{i:0;s:3:"4:3";}";}'
 the_grid_item_vimeo_ratio:
-  - 'a:1:{i:0;s:3:"4:3";}'
+  - 'a:1:{i:0;s:20:"a:1:{i:0;s:3:"4:3";}";}'
 the_grid_item_wistia_ratio:
-  - 'a:1:{i:0;s:3:"4:3";}'
+  - 'a:1:{i:0;s:20:"a:1:{i:0;s:3:"4:3";}";}'
 inline_featured_image:
   - "0"
+slide_template:
+  - 'a:1:{i:0;s:0:"";}'
+switch_like_status:
+  - 'a:1:{i:0;s:18:"a:1:{i:0;s:1:"1";}";}'
+eg_sources_html5_mp4:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_html5_ogv:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_html5_webm:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_youtube:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_vimeo:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_wistia:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_image:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_iframe:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_sources_soundcloud:
+  - 'a:1:{i:0;s:35:"s:27:"a:1:{i:0;s:0:&quot;&quot;;}";";}'
+eg_vimeo_ratio:
+  - 'a:1:{i:0;s:1:"0";}'
+eg_youtube_ratio:
+  - 'a:1:{i:0;s:1:"0";}'
+eg_wistia_ratio:
+  - 'a:1:{i:0;s:1:"0";}'
+eg_html5_ratio:
+  - 'a:1:{i:0;s:1:"0";}'
+eg_soundcloud_ratio:
+  - 'a:1:{i:0;s:1:"0";}'
+eg_settings_custom_meta_skin:
+  - 'a:1:{i:0;s:0:"";}'
+eg_settings_custom_meta_element:
+  - 'a:1:{i:0;s:0:"";}'
+eg_settings_custom_meta_setting:
+  - 'a:1:{i:0;s:0:"";}'
+eg_settings_custom_meta_style:
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [cs_content][cs_section id="about" parallax="false" style="margin: 25px 0px;padding: 0px;"][cs_row inner_container="true" marginless_columns="false" style="margin: 0px auto 20px;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/1" class="cs-ta-justify" style="padding: 0px 0px 20px;"][x_custom_headline level="h2" looks_like="h2" accent="false" id="Engagement Driven Marketing" class="cs-ta-center"]Listen, Engage, and Retain your Customers[/x_custom_headline][cs_text class="cs-ta-justify"]Everyone talks about the importance of marketing. A search crops up thousands of options, too many snake-oil salesmen and very little evidence about of the inner-workings. Worst yet; there's no roadmap for how to integrate the best technologies into your business workflow. Real businesses have real marketing challenges; So why do some <em>experts</em> consider 'social media', 'SEO' or a new website a solution? [highlight]I'm here to help.[/highlight][/cs_text][/cs_column][/cs_row][cs_row id="row-01" inner_container="true" marginless_columns="false" style="margin: 0px auto;padding: 0px;"][cs_column fade="false" fade_animation="in" fade_animation_offset="45px" fade_duration="750" type="1/2" style="padding: 0px 0px 20px;"][x_text_type prefix="" strings="Hello!|¡Hola!|Bonjour,|Namaste,|Guten Tag,|Olá,|Salaam,|مرحبا,|你好,|Welcome!" suffix="&lt;br&gt;I&#039;m Andrés" tag="h2" type_speed="50" start_delay="0" back_speed="50" back_delay="3000" loop="true" show_cursor="true" cursor="" looks_like="h2" id="Welcome" class="cs-ta-center"][cs_text class="cs-ta-justify"]I’m an effective Marketing Coordinator with <strong>15 years of advertising [extra href="#example" title="That's more than twenty-four thousand two hundred hours worth of quantifiable time" info="tooltip" info_place="top" info_trigger="hover"]experience[/extra]</strong>. I'm a solution to a complicated workflow. I attack problems with superior knowledge of the production process, an <strong>obsession with organization</strong>, and <strong>a genuine respect for communication</strong>. I direct with precision which <strong>results in completed projects</strong> which are <strong>on time and within budgets</strong>. I am creative, resourceful and an all-around good guy.
 
