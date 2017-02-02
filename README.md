@@ -126,7 +126,7 @@ Note: Site link colors are also used as accents for various elements throughout 
 
 #### BUTTONS COLORS ####
 - Button Text: rgb(255, 255, 255)
-- Button Background: rgb(0, 70, 140)
+- Button Background: rgb(0, 69, 138)
  - Hex6: #00468C
 - Button Border: rgb(255, 255, 255)
 
@@ -145,7 +145,7 @@ Note: "Navbar Top Height (px)" must be set even when using "Fixed Left" or "Fixe
 - Navbar Position: Static Top
 - Layout: Inline
 - **Navbar Top Height** (px): 90
-- **Navbar Background**: rgb(0, 70, 140) `!renew option`
+- **Navbar Background**: rgb(0, 69, 138) `!renew option`
 
 #### RENEW OPTIONS COLOR ####
 - Topbar Background: rgba(250, 255, 0, 0.50) `!renew option`
@@ -181,8 +181,8 @@ Note: Use the following controls to vertically align the logo. Make sure to adju
 #### NAVBAR LINKS TEXT ####
 
 - Navbar Font: [Roboto](https://fonts.google.com/specimen/Roboto) (Google)
-- Navbar Links Color**: rgb(255, 255, 255)
-- Navbar Links Hover Color: rgb(255, 255, 255)
+- **Navbar Links Color**: rgb(255, 255, 255)
+- **Navbar Links Hover Color**: rgb(255, 228, 0)
 - :red_circle: Navbar Links Accent Color: (line on MouseOver)
 - **Navbar Font Size** (px): 19
 - Navbar Font Weight: 500 – Medium
@@ -210,7 +210,7 @@ The vertical alignment and size of the mobile button that appears on smaller scr
 
 #### RENEW OPTIONS TYPOGRAPHY ####
 - **Footer Links and Text**: rgb(255, 255, 255) `!renew option`
-- **Footer Background**: rgb(51,51,51) `!renew option`
+- **Footer Background**: rgb(2,0,32) `!renew option`
 
 ## Blog ##
 
@@ -317,14 +317,14 @@ Note: touch icons for mobile devices and tile icon for the Windows 8/10 Metro in
 ## Menus ##
 Note: using conditional menus to redirect when needed. 
 - index-onepage: Primary
-	- About – 
-	- Services – 
-	- Blog – 
-	- Contact – 
+ - Services – 	
+ - About – 
+ - Blog – 
+ - Contact – 
 
 
 - index-sitewide
-	- About – 
-	- Services – 
-	- Blog – 
-	- Contact – 
+ - About – 
+ - Services – 
+ - Blog – 
+ - Contact – 
