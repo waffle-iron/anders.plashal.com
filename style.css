@@ -11,22 +11,13 @@ Template: x
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 /* Typography: */
+p { margin: 0; }
 
-p {
-    margin: 0;
-}
+.light { color: #fff; }
 
-.light {
-    color: #fff;
-}
+span.line { display: block; }
 
-span.line {
-    display: block;
-}
-
-.break {
-    display: block;
-}
+.break { display: block; }
 
 .hi-line {
     font-weight: 900;
@@ -38,9 +29,8 @@ span.line {
     line-height: .8em;
 }
 
-.x-colophon.top {
-    background-color: rgb(2, 0, 32);
-}
+/* */
+.x-colophon.top { background-color: rgb(2, 0, 32); }
 
 
 /* Footer: Widget Area*/
