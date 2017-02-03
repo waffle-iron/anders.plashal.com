@@ -10,4 +10,4 @@ sometimes you gotta burn the village down and rebuild. i hate to do it since it'
 
 
 	Thu. Feb 02, 2017- 12:47 PM:
-Figuring out the breakpoints to this stack was pretty crazy and time consuming. finally figured it out and now i can integrate the slider rev break points to get a pretty seamless experience. on a site note renew settings are horribly organized. super disappointing, took me all morning to hunt down the break points and have them confirmed.
+	Figuring out the breakpoints to this stack was pretty crazy and time consuming. finally figured it out and now i can integrate the slider rev break points to get a pretty seamless experience. on a site note renew settings are horribly organized. super disappointing, took me all morning to hunt down the break points and have them confirmed.

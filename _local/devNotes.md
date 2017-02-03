@@ -9,10 +9,10 @@ ToC
 - [Cheat Sheets](#cheat-sheets)
 ## User Experience  ##
 
-- 01 **One Column Layout** instead of multicolumns.
+- 01 **One Column Layout** instead of multicolumn.
 	A one column layout will give you more control over your narrative. It should be able to guide your readers in a more predictable way from top to bottom. Whereas a multi column approach runs some additional risk of being distracting to the core purpose of a page. Guide people with a story and a prominent call to action at the end.
 
-- 03 **Merge Similar Functions **instead of fragmenting the UI.
+- 03 **Merge Similar Functions** instead of fragmenting the UI.
 	Over the course of time, it's easy to unintentionally create multiple sections, elements and features which all perform the same function. It's basic entropy - things start falling apart over time. Keep an eye out for duplicate functionality labelled in various ways, as it puts a strain on your customers. Often, the more UI fragmentation there is, the higher the learning curve which your customers will have to deal with. Consider refactoring your UI once in a while by merging similar functions together.
 
 - 06 **Distinct Clickable/Selected Styles** instead of blurring them.
@@ -34,7 +34,7 @@ ToC
 - 13 **Fewer Form Fields** instead of asking for too many.
 	Human beings are inherently resistant to labor intensive tasks and this same idea also applies to filling out form fields. Each field you ask for runs the risk of making your visitors turn around and give up. Not everyone types at the same speed, while typing on mobile devices is still a chore in general. Question if each field is really necessary and remove as many fields as possible. If you really have numerous optional fields, then also consider moving them after form submission on a separate page or state. It's so easy to bloat up your forms, yet fewer fields will convert better. Evidence Exists For A [+7.6% Effect From This Idea](http://www.goodui.org/evidence/?13)
 
-- 14 **Exposing Options** instead of hiding them. 
+- 14 **Exposing Options** instead of hiding them.
 	Each pull down menu that you use, hides a set of actions within which require effort to be discovered. If those hidden options are central along the path to getting things done by your visitors, then you might wish to consider surfacing them a bit more up front. Try to reserve pull down menus for options that are predictable and don’t require new learning as in sets of date and time references (ex: calendars) or geographic sets. Occasionally pull down menu items can also work for those interfaces that are highly recurring in terms of use - actions that a person will use repeatedly over time (ex: action menus). Be careful of using drop downs for primary items that are on your path to conversion. Evidence Exists For [A +50.8% Effect From This Idea](http://www.goodui.org/evidence/?14)
 
 - 15 **Suggesting Continuity** instead of false bottoms.
@@ -47,9 +47,9 @@ ToC
 
 - 30 **Loss Aversion** instead of emphasizing gains.
 	We like to win, but we hate to lose. According to the rules of [persuasive psychology](http://en.wikipedia.org/wiki/Loss_aversion), we are more likely to prefer avoiding losses than to acquiring gains. This can be applied to how product offerings are framed and communicated. By underlying that a product is protective of a customer’s existing well-being, wealth or social status, such strategy might be more effective than trying to provide a customer with something additional which they don’t already have. Do insurance companies sell the payout that can be gained after the accident or the protection of the things we hold dear to us?
- 
 
-#### UX Links  ####
+
+#### UX Links ####
 - [http://www.goodui.org/](http://www.goodui.org/#1)
 
 ## Code & Markdown ##
@@ -79,7 +79,7 @@ How can I make that sentence shorter and give it more oomph?
 1. **Dump the passive voice.**
 Online, concise copy ~~will always get~~ gets better results than verbose copy.
 
-2. **Get rid of meaningless words.** Concise copy is always better, right? Plus folks are reading this online. 
+2. **Get rid of meaningless words.** Concise copy is always better, right? Plus folks are reading this online.
 ~~Online,~~ Concise copy ~~will always get~~ gets better results than verbose copy.
 3. **Get rid of repeated words.**
 In copy, concise ~~copy~~ gets better results than verbose~~copy~~.
@@ -88,7 +88,7 @@ In copy, concise ~~copy~~ gets better results than verbose~~copy~~.
 In copy, concise ~~gets better results than~~ beats verbose.
 
 5. **Make sure it reads OK.** In this case, I’m not thrilled with my phrasing. A little rejiggering does the trick:
-Concise copy beats verbose. 
+Concise copy beats verbose.
 
 The result is better. **This:**
 Online, concise copy will always get better results than verbose copy.
