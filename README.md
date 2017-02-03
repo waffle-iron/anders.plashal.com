@@ -45,18 +45,18 @@ Note: "Site Width" is the percentage of the screen the site should take up while
 Default Media Query Breakpoints for Standard Devices (and since it standardized and a default, there's *like* 90 of them) 
 https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
-1. **Small**: 480px `!default;`
-2. **Medium**: 767px `!default;`
-3. **LargeMedium**: 979px `!default;` 
+1. **Small**: 480px `!default; //  Mobile Menu //`
+2. **Medium**: 767px `!default; //  Mobile Menu //`
+3. **LargeMedium**: 979px `!default; //  Mobile Menu //`
 4. Large: 1200px
 
 **Breakdown:**
 - **Phone** –  Extra Small: 480px & Smaller
- - @media (max-width: 480px) `!default;`
+ - @media (max-width: 480px) `!default;//  Mobile Menu //`
 - **Tablet** (*Portrait*) – Medium: 481px – 767px
- - @media (max-width: 767px) `!default;`
+ - @media (max-width: 767px) `!default;//  Mobile Menu //`
 - Tablet (*Landscape*) – MediumLarge: 768px – 979px
- - @media (max-width: 979px) `!default;` // (+1 = default desktop)
+ - @media (max-width: 979px) `!default; //  Mobile Menu //`
 - Notebook – Large: 980px – 1199px
  - @media (max-width: 1199px)
 - **Desktop** – Extra Large: 1200px & Up
