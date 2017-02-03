@@ -1,0 +1,65 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Child by:  Andres Plashal
+Version: 1.0.0
+Template: x
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/* Typography: */
+
+p {
+    margin: 0;
+}
+
+.light {
+    color: #fff;
+}
+
+span.line {
+    display: block;
+}
+
+.break {
+    display: block;
+}
+
+.hi-line {
+    font-weight: 900;
+    line-height: .8em;
+}
+
+.bi-line {
+    font-weight: 100;
+    line-height: .8em;
+}
+
+.x-colophon.top {
+    background-color: rgb(2, 0, 32);
+}
+
+
+/* Footer: Widget Area*/
+
+
+/* callout button*/
+
+.x-callout::before {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(http://andres.plashal.com/wp-content/uploads/2017/02/bkgrnd-poly-gray.png);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.p-callout {
+    margin-bottom: 20px;
+}
+
+.money {
+    font-weight: 700;
+    color: rgb(255, 0, 90);
+}
