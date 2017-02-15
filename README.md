@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/plashal/anders.plashal.com.png?label=ready&title=Ready)](https://waffle.io/plashal/anders.plashal.com)
 ## Table of Contents ##
 - [LAYOUT AND DESIGN](#layout-and-design)
  - [Responsive Breakpoints](#refined-breakpoints)
